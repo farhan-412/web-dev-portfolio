@@ -23,7 +23,7 @@
     font-weight: bold;
     font-size: 35px;
     color: #181818;
-   
+    
 }
 .section-description{
     font-size: 18px;
@@ -31,7 +31,7 @@
     
 }
 .secondary-bg{
-    background-color: #FFF8F3;
+background-color: #FFF8F3;
 }
 
 .btn-primary{
@@ -63,7 +63,7 @@ nav ul li{
 }
 nav li a{
     text-decoration: none;
-
+    
 }
 /* header */
 .header{
@@ -79,7 +79,7 @@ nav li a{
 }
 .banner-content{
     max-width: 585px;
-
+    
 }
 .banner-greeting{
     font-size: 45px;
@@ -131,10 +131,68 @@ main{
     display: flex;
     gap: 24px;
     margin-bottom: 100px;
-   
+    
 }
 .skills{
     box-shadow: 0px 6px 50px 0px rgb(0 ,0 , 0, 0.06);
     padding: 24px;
     text-align: justify;
 }
+.resume{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    color: #474747;
+}
+.experience-title{
+    font-size: 25px;
+    color: #474747;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    opacity: 100%;
+}
+.experience-description{
+    font-size: 16px;
+    color: #757575;
+}
+.resume hr{
+    margin: 30px 0px;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    border-radius: 5px;
+    height: 64px;
+    padding: 18px 20px 10px;
+    display: block;
+    background-color: white;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+.footer-title{
+    font-size: 35px;
+}
+.footer-description{
+    font-size: 16px;
+    }
+
+
+
+
+
+
