@@ -93,9 +93,10 @@ nav li a{
     font-size:  18px; 
     font-weight: 200;
 }
-.image{
+.images{
     width: 584px;
     width: 100%;
+    position: bottom right;
 }
 /* main style */
 main{
@@ -112,6 +113,7 @@ main{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    gap: 20px;
 }
 .item-title{
     color: #757575;
@@ -190,9 +192,36 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 .footer-description{
     font-size: 16px;
     }
-
-
-
+/* responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .skill-item, .resume, footer, .about-items, .banner, nav, nav>ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 10px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .image{
+        width:100% ;
+    }
+    .banner{
+        margin: 10px;
+    }
+    .header{
+        background-image: none;
+    }
+    .footer-column{
+        width: calc(100% - 40px);
+    }
+    .about {
+        padding: 20px;
+    }
+}
 
 
 
